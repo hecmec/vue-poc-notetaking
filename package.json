@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-note-app",
+  "name": "vue-poc-notetaking",
   "version": "1.0.0",
-  "description": "little note taking app with markdoww using prosemirror",
+  "description": "nuxt app for note taking\nusing prosemirror",
   "author": "Nuxt.js Team",
   "private": true,
   "scripts": {
