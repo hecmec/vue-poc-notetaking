@@ -160,8 +160,8 @@ Alles weitere geht nicht
     addNewNote() {
       console.log("indexVue.addNewNote");
       let newNote = {
-        id: this.getId(),
-        content: this.newNoteText,
+        id: Helpers.getNoteId(),
+        content: "",
         createdAt: new Date().toISOString(),
         tags: [],
         stared: false,

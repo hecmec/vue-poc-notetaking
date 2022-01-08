@@ -13,7 +13,7 @@ export default class Helpers {
     console.log("Helpers.assureHtmlContentOnNote", note.title);
     const newNote = { ...note };
     newNote.htmlContent = marked(newNote.content);
-    // console.debug("newNote.htmlContent", newNote.htmlContent);
+    console.debug("newNote.htmlContent", newNote.htmlContent);
     return newNote;
   }
 
